@@ -1,0 +1,17 @@
+{
+    "name": "alessandrobertozzi/project",
+    "type": "library",
+    "require": {
+        "spatie/laravel-permission": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alessandrobertozzi\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alessandro Bertozzi"
+        }
+    ]
+}
