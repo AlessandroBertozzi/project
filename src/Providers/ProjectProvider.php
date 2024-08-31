@@ -20,7 +20,7 @@ class ProjectProvider extends ServiceProvider
             __DIR__.'/../migrations' => database_path('migrations')
         ], 'project-migrations');
         $this->publishes([
-            __DIR__.'/../models' => database_path('models')
+            __DIR__.'/../Models' => base_path('app/Models')
         ], 'project-models');
     }
 }
